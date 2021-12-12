@@ -8,40 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var alertIsPresented = false
-    @State private var backgroundUpdated = false
+    @State var backgroundColor = Color(.systemBackground)
     var body: some View {
         NavigationView {
             ZStack {
-                if backgroundUpdated {
-                    Color.red
-                } else {
-                    Color.blue
-                }
-                VStack {
-                    Button(action: {
-                        self.alertIsPresented = true
-                    }, label: {
-                        Text("Tap Me!")
-                            .foregroundColor(.white)
-                            .bold()
-                            .font(.system(size: 24))
-                    })
-                        .frame(width: 200,
-                               height: 50,
-                               alignment: /*@START_MENU_TOKEN@*/ .center/*@END_MENU_TOKEN@*/)
-                        .padding()
-                        .background(Color.green)
-                        .cornerRadius(8)
-                        .alert(isPresented: $alertIsPresented,
-                               content: {
-                                   Alert(title: Text("Would you like to purchase ?"), primaryButton: .default(Text("Purchase"), action: {
-                                    self.backgroundUpdated.toggle()
-                                   }), secondaryButton: .cancel(Text("No, Thanks")))
-                               })
-                }
+                backgroundColor
+                ColorPicker("Select Color", selection: $backgroundColor)
+                    .padding()
             }
-            .navigationTitle("SwiftUI Alerts")
+            .navigationTitle("Color Picker")
         }
     }
 }
@@ -49,5 +24,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.light)
     }
 }
