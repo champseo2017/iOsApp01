@@ -11,6 +11,7 @@
 		147BCFED27683CCE00F57F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BCFEC27683CCE00F57F8A /* ContentView.swift */; };
 		147BCFEF27683CD100F57F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147BCFEE27683CD100F57F8A /* Assets.xcassets */; };
 		147BCFF227683CD100F57F8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147BCFF127683CD100F57F8A /* Preview Assets.xcassets */; };
+		148099AC27698D8A005CC00D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148099AB27698D8A005CC00D /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		147BCFEE27683CD100F57F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147BCFF127683CD100F57F8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		147BCFF327683CD100F57F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148099AB27698D8A005CC00D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		147BCFE927683CCE00F57F8A /* Facebook */ = {
 			isa = PBXGroup;
 			children = (
+				148099AB27698D8A005CC00D /* Images.xcassets */,
 				147BCFEA27683CCE00F57F8A /* FacebookApp.swift */,
 				147BCFEC27683CCE00F57F8A /* ContentView.swift */,
 				147BCFEE27683CD100F57F8A /* Assets.xcassets */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148099AC27698D8A005CC00D /* Images.xcassets in Resources */,
 				147BCFF227683CD100F57F8A /* Preview Assets.xcassets in Resources */,
 				147BCFEF27683CD100F57F8A /* Assets.xcassets in Resources */,
 			);
