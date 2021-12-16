@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @Binding var text: String
     let facebookBlue = UIColor(red: 23 / 255.0, green: 120 / 255.0, blue: 242 / 255.0, alpha: 1)
+    let stories = ["story1", "story2", "story3", "story1", "story2", "story3"]
     var body: some View {
         VStack {
             HStack {
@@ -34,16 +35,18 @@ struct ContentView: View {
                     VStack {
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack(spacing: 3) {
-                                Image("story1")
-                                    .resizable()
-                                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
-                                    .frame(width: 140, height: 200, alignment: .center)
-                                    .background(Color.red)
-                                    .clipped()
-                                
+                                ForEach(stories, id: \.self) { name in
+                                    Image(name)
+                                        .resizable()
+                                        .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/ .fill/*@END_MENU_TOKEN@*/)
+                                        .frame(width: 140, height: 200, alignment: .center)
+                                        .background(Color.red)
+                                        .clipped()
+                                }
                             }
                             .padding()
                         }
+                        
                     }
                 }
             }
