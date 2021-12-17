@@ -38,7 +38,7 @@ struct ContentView: View {
                                 ForEach(stories, id: \.self) { name in
                                     Image(name)
                                         .resizable()
-                                        .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/ .fill/*@END_MENU_TOKEN@*/)
+                                        .aspectRatio(contentMode: .fill)
                                         .frame(width: 140, height: 200, alignment: .center)
                                         .background(Color.red)
                                         .clipped()
@@ -46,7 +46,12 @@ struct ContentView: View {
                             }
                             .padding()
                         }
-                        
+                        FBPost(name: "Dog 1", post: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ", imageName: "story1")
+                        Spacer()
+                        FBPost(name: "Dog 2", post: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ", imageName: "story2")
+                        Spacer()
+                        FBPost(name: "Dog 3", post: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ", imageName: "story3")
+                        Spacer()
                     }
                 }
             }
@@ -55,8 +60,72 @@ struct ContentView: View {
     }
 }
 
+struct FBPost: View {
+    let name: String
+    let post: String
+    let imageName: String
+    
+    var body: some View {
+        VStack {
+            HStack {
+                Image(imageName)
+                    .resizable()
+                    .frame(width: 80, height: 80, alignment: /*@START_MENU_TOKEN@*/ .center/*@END_MENU_TOKEN@*/)
+                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/ .fill/*@END_MENU_TOKEN@*/)
+                    .cornerRadius(25)
+                VStack {
+                    HStack {
+                        Text(name)
+                            .foregroundColor(Color.blue)
+                            .font(.system(size: 18, weight: .semibold, design: .default))
+                        Spacer()
+                    }
+                    HStack {
+                        Text("12 minutes ago")
+                            .foregroundColor(Color(.secondaryLabel))
+                        Spacer()
+                    }
+                }
+                Spacer()
+            }
+            Spacer()
+            HStack {
+                Text(post)
+                    .font(.system(size: 24, weight: .regular, design: .default))
+                    .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                Spacer()
+            }
+            Spacer()
+            HStack {
+                Button(action: {
+                    
+                }, label: {
+                    Text("Like")
+                })
+                Spacer()
+                Button(action: {
+                    
+                }, label: {
+                    Text("Comment")
+                })
+                Spacer()
+                Button(action: {
+                    
+                }, label: {
+                    Text("Share")
+                })
+            }
+            .padding()
+        }
+        .padding()
+        .background(Color(.systemBackground))
+        .cornerRadius(7)
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(text: .constant(""))
+            .preferredColorScheme(.light)
     }
 }
