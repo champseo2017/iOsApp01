@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		140648DD276DA002008724AC /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140648DC276DA002008724AC /* StoriesView.swift */; };
-		140648DF276DA06D008724AC /* FBPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140648DE276DA06D008724AC /* FBPostView.swift */; };
-		147BCFEB27683CCE00F57F8A /* FacebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BCFEA27683CCE00F57F8A /* FacebookApp.swift */; };
-		147BCFED27683CCE00F57F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BCFEC27683CCE00F57F8A /* ContentView.swift */; };
-		147BCFEF27683CD100F57F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147BCFEE27683CD100F57F8A /* Assets.xcassets */; };
-		147BCFF227683CD100F57F8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147BCFF127683CD100F57F8A /* Preview Assets.xcassets */; };
-		148099AC27698D8A005CC00D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148099AB27698D8A005CC00D /* Images.xcassets */; };
+		140648ED276DB310008724AC /* WebViewinSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140648EC276DB310008724AC /* WebViewinSwiftUIApp.swift */; };
+		140648EF276DB310008724AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140648EE276DB310008724AC /* ContentView.swift */; };
+		140648F1276DB315008724AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140648F0276DB315008724AC /* Assets.xcassets */; };
+		140648F4276DB315008724AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140648F3276DB315008724AC /* Preview Assets.xcassets */; };
+		140648FC276DB459008724AC /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140648FB276DB459008724AC /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		140648DC276DA002008724AC /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
-		140648DE276DA06D008724AC /* FBPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPostView.swift; sourceTree = "<group>"; };
-		147BCFE727683CCE00F57F8A /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		147BCFEA27683CCE00F57F8A /* FacebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookApp.swift; sourceTree = "<group>"; };
-		147BCFEC27683CCE00F57F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		147BCFEE27683CD100F57F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		147BCFF127683CD100F57F8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		147BCFF327683CD100F57F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		148099AB27698D8A005CC00D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		140648E9276DB310008724AC /* WebViewinSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewinSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		140648EC276DB310008724AC /* WebViewinSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewinSwiftUIApp.swift; sourceTree = "<group>"; };
+		140648EE276DB310008724AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		140648F0276DB315008724AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		140648F3276DB315008724AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		140648F5276DB316008724AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140648FB276DB459008724AC /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		147BCFE427683CCE00F57F8A /* Frameworks */ = {
+		140648E6276DB310008724AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,41 +35,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		147BCFDE27683CCE00F57F8A = {
+		140648E0276DB310008724AC = {
 			isa = PBXGroup;
 			children = (
-				147BCFE927683CCE00F57F8A /* Facebook */,
-				147BCFE827683CCE00F57F8A /* Products */,
+				140648EB276DB310008724AC /* WebViewinSwiftUI */,
+				140648EA276DB310008724AC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		147BCFE827683CCE00F57F8A /* Products */ = {
+		140648EA276DB310008724AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				147BCFE727683CCE00F57F8A /* Facebook.app */,
+				140648E9276DB310008724AC /* WebViewinSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		147BCFE927683CCE00F57F8A /* Facebook */ = {
+		140648EB276DB310008724AC /* WebViewinSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				148099AB27698D8A005CC00D /* Images.xcassets */,
-				147BCFEA27683CCE00F57F8A /* FacebookApp.swift */,
-				147BCFEC27683CCE00F57F8A /* ContentView.swift */,
-				147BCFEE27683CD100F57F8A /* Assets.xcassets */,
-				147BCFF327683CD100F57F8A /* Info.plist */,
-				147BCFF027683CD100F57F8A /* Preview Content */,
-				140648DC276DA002008724AC /* StoriesView.swift */,
-				140648DE276DA06D008724AC /* FBPostView.swift */,
+				140648EC276DB310008724AC /* WebViewinSwiftUIApp.swift */,
+				140648EE276DB310008724AC /* ContentView.swift */,
+				140648F0276DB315008724AC /* Assets.xcassets */,
+				140648F5276DB316008724AC /* Info.plist */,
+				140648F2276DB315008724AC /* Preview Content */,
+				140648FB276DB459008724AC /* WebView.swift */,
 			);
-			path = Facebook;
+			path = WebViewinSwiftUI;
 			sourceTree = "<group>";
 		};
-		147BCFF027683CD100F57F8A /* Preview Content */ = {
+		140648F2276DB315008724AC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				147BCFF127683CD100F57F8A /* Preview Assets.xcassets */,
+				140648F3276DB315008724AC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -81,38 +75,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		147BCFE627683CCE00F57F8A /* Facebook */ = {
+		140648E8276DB310008724AC /* WebViewinSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 147BCFF627683CD100F57F8A /* Build configuration list for PBXNativeTarget "Facebook" */;
+			buildConfigurationList = 140648F8276DB316008724AC /* Build configuration list for PBXNativeTarget "WebViewinSwiftUI" */;
 			buildPhases = (
-				147BCFE327683CCE00F57F8A /* Sources */,
-				147BCFE427683CCE00F57F8A /* Frameworks */,
-				147BCFE527683CCE00F57F8A /* Resources */,
+				140648E5276DB310008724AC /* Sources */,
+				140648E6276DB310008724AC /* Frameworks */,
+				140648E7276DB310008724AC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Facebook;
-			productName = Facebook;
-			productReference = 147BCFE727683CCE00F57F8A /* Facebook.app */;
+			name = WebViewinSwiftUI;
+			productName = WebViewinSwiftUI;
+			productReference = 140648E9276DB310008724AC /* WebViewinSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		147BCFDF27683CCE00F57F8A /* Project object */ = {
+		140648E1276DB310008724AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					147BCFE627683CCE00F57F8A = {
+					140648E8276DB310008724AC = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 147BCFE227683CCE00F57F8A /* Build configuration list for PBXProject "Facebook" */;
+			buildConfigurationList = 140648E4276DB310008724AC /* Build configuration list for PBXProject "WebViewinSwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,45 +114,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 147BCFDE27683CCE00F57F8A;
-			productRefGroup = 147BCFE827683CCE00F57F8A /* Products */;
+			mainGroup = 140648E0276DB310008724AC;
+			productRefGroup = 140648EA276DB310008724AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				147BCFE627683CCE00F57F8A /* Facebook */,
+				140648E8276DB310008724AC /* WebViewinSwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		147BCFE527683CCE00F57F8A /* Resources */ = {
+		140648E7276DB310008724AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				148099AC27698D8A005CC00D /* Images.xcassets in Resources */,
-				147BCFF227683CD100F57F8A /* Preview Assets.xcassets in Resources */,
-				147BCFEF27683CD100F57F8A /* Assets.xcassets in Resources */,
+				140648F4276DB315008724AC /* Preview Assets.xcassets in Resources */,
+				140648F1276DB315008724AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		147BCFE327683CCE00F57F8A /* Sources */ = {
+		140648E5276DB310008724AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140648DF276DA06D008724AC /* FBPostView.swift in Sources */,
-				147BCFED27683CCE00F57F8A /* ContentView.swift in Sources */,
-				147BCFEB27683CCE00F57F8A /* FacebookApp.swift in Sources */,
-				140648DD276DA002008724AC /* StoriesView.swift in Sources */,
+				140648FC276DB459008724AC /* WebView.swift in Sources */,
+				140648EF276DB310008724AC /* ContentView.swift in Sources */,
+				140648ED276DB310008724AC /* WebViewinSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		147BCFF427683CD100F57F8A /* Debug */ = {
+		140648F6276DB316008724AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		147BCFF527683CD100F57F8A /* Release */ = {
+		140648F7276DB316008724AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,42 +266,42 @@
 			};
 			name = Release;
 		};
-		147BCFF727683CD100F57F8A /* Debug */ = {
+		140648F9276DB316008724AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Facebook/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WebViewinSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Facebook/Info.plist;
+				INFOPLIST_FILE = WebViewinSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.Facebook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.WebViewinSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		147BCFF827683CD100F57F8A /* Release */ = {
+		140648FA276DB316008724AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Facebook/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WebViewinSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Facebook/Info.plist;
+				INFOPLIST_FILE = WebViewinSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.Facebook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.WebViewinSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +311,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		147BCFE227683CCE00F57F8A /* Build configuration list for PBXProject "Facebook" */ = {
+		140648E4276DB310008724AC /* Build configuration list for PBXProject "WebViewinSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				147BCFF427683CD100F57F8A /* Debug */,
-				147BCFF527683CD100F57F8A /* Release */,
+				140648F6276DB316008724AC /* Debug */,
+				140648F7276DB316008724AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		147BCFF627683CD100F57F8A /* Build configuration list for PBXNativeTarget "Facebook" */ = {
+		140648F8276DB316008724AC /* Build configuration list for PBXNativeTarget "WebViewinSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				147BCFF727683CD100F57F8A /* Debug */,
-				147BCFF827683CD100F57F8A /* Release */,
+				140648F9276DB316008724AC /* Debug */,
+				140648FA276DB316008724AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 147BCFDF27683CCE00F57F8A /* Project object */;
+	rootObject = 140648E1276DB310008724AC /* Project object */;
 }
