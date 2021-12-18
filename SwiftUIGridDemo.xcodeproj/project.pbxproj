@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		140648ED276DB310008724AC /* WebViewinSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140648EC276DB310008724AC /* WebViewinSwiftUIApp.swift */; };
-		140648EF276DB310008724AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140648EE276DB310008724AC /* ContentView.swift */; };
-		140648F1276DB315008724AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140648F0276DB315008724AC /* Assets.xcassets */; };
-		140648F4276DB315008724AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140648F3276DB315008724AC /* Preview Assets.xcassets */; };
-		140648FC276DB459008724AC /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140648FB276DB459008724AC /* WebView.swift */; };
+		1406490A276DC08D008724AC /* SwiftUIGridDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14064909276DC08D008724AC /* SwiftUIGridDemoApp.swift */; };
+		1406490C276DC08D008724AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1406490B276DC08D008724AC /* ContentView.swift */; };
+		1406490E276DC092008724AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1406490D276DC092008724AC /* Assets.xcassets */; };
+		14064911276DC092008724AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14064910276DC092008724AC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		140648E9276DB310008724AC /* WebViewinSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewinSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		140648EC276DB310008724AC /* WebViewinSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewinSwiftUIApp.swift; sourceTree = "<group>"; };
-		140648EE276DB310008724AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		140648F0276DB315008724AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		140648F3276DB315008724AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		140648F5276DB316008724AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		140648FB276DB459008724AC /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		14064906276DC08D008724AC /* SwiftUIGridDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIGridDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14064909276DC08D008724AC /* SwiftUIGridDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGridDemoApp.swift; sourceTree = "<group>"; };
+		1406490B276DC08D008724AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1406490D276DC092008724AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14064910276DC092008724AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14064912276DC092008724AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		140648E6276DB310008724AC /* Frameworks */ = {
+		14064903276DC08D008724AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,39 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		140648E0276DB310008724AC = {
+		140648FD276DC08C008724AC = {
 			isa = PBXGroup;
 			children = (
-				140648EB276DB310008724AC /* WebViewinSwiftUI */,
-				140648EA276DB310008724AC /* Products */,
+				14064908276DC08D008724AC /* SwiftUIGridDemo */,
+				14064907276DC08D008724AC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		140648EA276DB310008724AC /* Products */ = {
+		14064907276DC08D008724AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				140648E9276DB310008724AC /* WebViewinSwiftUI.app */,
+				14064906276DC08D008724AC /* SwiftUIGridDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		140648EB276DB310008724AC /* WebViewinSwiftUI */ = {
+		14064908276DC08D008724AC /* SwiftUIGridDemo */ = {
 			isa = PBXGroup;
 			children = (
-				140648EC276DB310008724AC /* WebViewinSwiftUIApp.swift */,
-				140648EE276DB310008724AC /* ContentView.swift */,
-				140648F0276DB315008724AC /* Assets.xcassets */,
-				140648F5276DB316008724AC /* Info.plist */,
-				140648F2276DB315008724AC /* Preview Content */,
-				140648FB276DB459008724AC /* WebView.swift */,
+				14064909276DC08D008724AC /* SwiftUIGridDemoApp.swift */,
+				1406490B276DC08D008724AC /* ContentView.swift */,
+				1406490D276DC092008724AC /* Assets.xcassets */,
+				14064912276DC092008724AC /* Info.plist */,
+				1406490F276DC092008724AC /* Preview Content */,
 			);
-			path = WebViewinSwiftUI;
+			path = SwiftUIGridDemo;
 			sourceTree = "<group>";
 		};
-		140648F2276DB315008724AC /* Preview Content */ = {
+		1406490F276DC092008724AC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				140648F3276DB315008724AC /* Preview Assets.xcassets */,
+				14064910276DC092008724AC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -75,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		140648E8276DB310008724AC /* WebViewinSwiftUI */ = {
+		14064905276DC08D008724AC /* SwiftUIGridDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 140648F8276DB316008724AC /* Build configuration list for PBXNativeTarget "WebViewinSwiftUI" */;
+			buildConfigurationList = 14064915276DC092008724AC /* Build configuration list for PBXNativeTarget "SwiftUIGridDemo" */;
 			buildPhases = (
-				140648E5276DB310008724AC /* Sources */,
-				140648E6276DB310008724AC /* Frameworks */,
-				140648E7276DB310008724AC /* Resources */,
+				14064902276DC08D008724AC /* Sources */,
+				14064903276DC08D008724AC /* Frameworks */,
+				14064904276DC08D008724AC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WebViewinSwiftUI;
-			productName = WebViewinSwiftUI;
-			productReference = 140648E9276DB310008724AC /* WebViewinSwiftUI.app */;
+			name = SwiftUIGridDemo;
+			productName = SwiftUIGridDemo;
+			productReference = 14064906276DC08D008724AC /* SwiftUIGridDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		140648E1276DB310008724AC /* Project object */ = {
+		140648FE276DC08C008724AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					140648E8276DB310008724AC = {
+					14064905276DC08D008724AC = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 140648E4276DB310008724AC /* Build configuration list for PBXProject "WebViewinSwiftUI" */;
+			buildConfigurationList = 14064901276DC08C008724AC /* Build configuration list for PBXProject "SwiftUIGridDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,43 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 140648E0276DB310008724AC;
-			productRefGroup = 140648EA276DB310008724AC /* Products */;
+			mainGroup = 140648FD276DC08C008724AC;
+			productRefGroup = 14064907276DC08D008724AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				140648E8276DB310008724AC /* WebViewinSwiftUI */,
+				14064905276DC08D008724AC /* SwiftUIGridDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		140648E7276DB310008724AC /* Resources */ = {
+		14064904276DC08D008724AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140648F4276DB315008724AC /* Preview Assets.xcassets in Resources */,
-				140648F1276DB315008724AC /* Assets.xcassets in Resources */,
+				14064911276DC092008724AC /* Preview Assets.xcassets in Resources */,
+				1406490E276DC092008724AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		140648E5276DB310008724AC /* Sources */ = {
+		14064902276DC08D008724AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140648FC276DB459008724AC /* WebView.swift in Sources */,
-				140648EF276DB310008724AC /* ContentView.swift in Sources */,
-				140648ED276DB310008724AC /* WebViewinSwiftUIApp.swift in Sources */,
+				1406490C276DC08D008724AC /* ContentView.swift in Sources */,
+				1406490A276DC08D008724AC /* SwiftUIGridDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		140648F6276DB316008724AC /* Debug */ = {
+		14064913276DC092008724AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		140648F7276DB316008724AC /* Release */ = {
+		14064914276DC092008724AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,42 +262,42 @@
 			};
 			name = Release;
 		};
-		140648F9276DB316008724AC /* Debug */ = {
+		14064916276DC092008724AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WebViewinSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIGridDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WebViewinSwiftUI/Info.plist;
+				INFOPLIST_FILE = SwiftUIGridDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.WebViewinSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIGridDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		140648FA276DB316008724AC /* Release */ = {
+		14064917276DC092008724AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WebViewinSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIGridDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WebViewinSwiftUI/Info.plist;
+				INFOPLIST_FILE = SwiftUIGridDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.WebViewinSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIGridDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,25 +307,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		140648E4276DB310008724AC /* Build configuration list for PBXProject "WebViewinSwiftUI" */ = {
+		14064901276DC08C008724AC /* Build configuration list for PBXProject "SwiftUIGridDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				140648F6276DB316008724AC /* Debug */,
-				140648F7276DB316008724AC /* Release */,
+				14064913276DC092008724AC /* Debug */,
+				14064914276DC092008724AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		140648F8276DB316008724AC /* Build configuration list for PBXNativeTarget "WebViewinSwiftUI" */ = {
+		14064915276DC092008724AC /* Build configuration list for PBXNativeTarget "SwiftUIGridDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				140648F9276DB316008724AC /* Debug */,
-				140648FA276DB316008724AC /* Release */,
+				14064916276DC092008724AC /* Debug */,
+				14064917276DC092008724AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 140648E1276DB310008724AC /* Project object */;
+	rootObject = 140648FE276DC08C008724AC /* Project object */;
 }
