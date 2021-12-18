@@ -6,11 +6,21 @@
 //
 
 import SwiftUI
+struct FBPostModel: Hashable {
+    let name: String
+    let post: String
+    let imageName: String
+}
 
 struct ContentView: View {
     @Binding var text: String
     let facebookBlue = UIColor(red: 23 / 255.0, green: 120 / 255.0, blue: 242 / 255.0, alpha: 1)
     let stories = ["story1", "story2", "story3", "story1", "story2", "story3"]
+    let posts: [FBPostModel] = [
+        FBPostModel(name: "Dog 1", post: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ", imageName: "story1"),
+        FBPostModel(name: "Dog 2", post: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ", imageName: "story2"),
+        FBPostModel(name: "Dog 3", post: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ", imageName: "story3"),
+    ]
     var body: some View {
         VStack {
             HStack {
@@ -33,93 +43,16 @@ struct ContentView: View {
                 Color(.secondarySystemBackground)
                 ScrollView(.vertical) {
                     VStack {
-                        ScrollView(.horizontal, showsIndicators: false) {
-                            HStack(spacing: 3) {
-                                ForEach(stories, id: \.self) { name in
-                                    Image(name)
-                                        .resizable()
-                                        .aspectRatio(contentMode: .fill)
-                                        .frame(width: 140, height: 200, alignment: .center)
-                                        .background(Color.red)
-                                        .clipped()
-                                }
-                            }
-                            .padding()
+                        StoriesView(stories: stories)
+                        ForEach(posts, id: \.self) { model in
+                            FBPost(model: model)
+                            Spacer()
                         }
-                        FBPost(name: "Dog 1", post: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ", imageName: "story1")
-                        Spacer()
-                        FBPost(name: "Dog 2", post: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ", imageName: "story2")
-                        Spacer()
-                        FBPost(name: "Dog 3", post: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ", imageName: "story3")
-                        Spacer()
                     }
                 }
             }
             Spacer()
         }
-    }
-}
-
-struct FBPost: View {
-    let name: String
-    let post: String
-    let imageName: String
-    
-    var body: some View {
-        VStack {
-            HStack {
-                Image(imageName)
-                    .resizable()
-                    .frame(width: 80, height: 80, alignment: /*@START_MENU_TOKEN@*/ .center/*@END_MENU_TOKEN@*/)
-                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/ .fill/*@END_MENU_TOKEN@*/)
-                    .cornerRadius(25)
-                VStack {
-                    HStack {
-                        Text(name)
-                            .foregroundColor(Color.blue)
-                            .font(.system(size: 18, weight: .semibold, design: .default))
-                        Spacer()
-                    }
-                    HStack {
-                        Text("12 minutes ago")
-                            .foregroundColor(Color(.secondaryLabel))
-                        Spacer()
-                    }
-                }
-                Spacer()
-            }
-            Spacer()
-            HStack {
-                Text(post)
-                    .font(.system(size: 24, weight: .regular, design: .default))
-                    .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
-                Spacer()
-            }
-            Spacer()
-            HStack {
-                Button(action: {
-                    
-                }, label: {
-                    Text("Like")
-                })
-                Spacer()
-                Button(action: {
-                    
-                }, label: {
-                    Text("Comment")
-                })
-                Spacer()
-                Button(action: {
-                    
-                }, label: {
-                    Text("Share")
-                })
-            }
-            .padding()
-        }
-        .padding()
-        .background(Color(.systemBackground))
-        .cornerRadius(7)
     }
 }
 

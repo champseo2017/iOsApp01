@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140648DD276DA002008724AC /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140648DC276DA002008724AC /* StoriesView.swift */; };
+		140648DF276DA06D008724AC /* FBPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140648DE276DA06D008724AC /* FBPostView.swift */; };
 		147BCFEB27683CCE00F57F8A /* FacebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BCFEA27683CCE00F57F8A /* FacebookApp.swift */; };
 		147BCFED27683CCE00F57F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BCFEC27683CCE00F57F8A /* ContentView.swift */; };
 		147BCFEF27683CD100F57F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147BCFEE27683CD100F57F8A /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		140648DC276DA002008724AC /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
+		140648DE276DA06D008724AC /* FBPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPostView.swift; sourceTree = "<group>"; };
 		147BCFE727683CCE00F57F8A /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147BCFEA27683CCE00F57F8A /* FacebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookApp.swift; sourceTree = "<group>"; };
 		147BCFEC27683CCE00F57F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				147BCFEE27683CD100F57F8A /* Assets.xcassets */,
 				147BCFF327683CD100F57F8A /* Info.plist */,
 				147BCFF027683CD100F57F8A /* Preview Content */,
+				140648DC276DA002008724AC /* StoriesView.swift */,
+				140648DE276DA06D008724AC /* FBPostView.swift */,
 			);
 			path = Facebook;
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140648DF276DA06D008724AC /* FBPostView.swift in Sources */,
 				147BCFED27683CCE00F57F8A /* ContentView.swift in Sources */,
 				147BCFEB27683CCE00F57F8A /* FacebookApp.swift in Sources */,
+				140648DD276DA002008724AC /* StoriesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
