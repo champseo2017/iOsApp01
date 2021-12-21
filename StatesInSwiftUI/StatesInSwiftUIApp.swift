@@ -1,14 +1,14 @@
 //
-//  SwiftUIGridDemoApp.swift
-//  SwiftUIGridDemo
+//  StatesInSwiftUIApp.swift
+//  StatesInSwiftUI
 //
-//  Created by Champ on 18/12/2564 BE.
+//  Created by Champ on 21/12/2564 BE.
 //
 
 import SwiftUI
 
 @main
-struct SwiftUIGridDemoApp: App {
+struct StatesInSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
