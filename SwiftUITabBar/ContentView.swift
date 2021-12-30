@@ -7,15 +7,37 @@
 
 import SwiftUI
 
+struct HomeView: View {
+    var body: some View {
+        NavigationView {
+            ZStack {
+                Color.red
+            }
+            .navigationTitle("Home")
+        }
+    }
+}
+
+struct SettingsView: View {
+    var body: some View {
+        NavigationView {
+            ZStack {
+                Color.blue
+            }
+            .navigationTitle("Settings")
+        }
+    }
+}
+
 struct ContentView: View {
     var body: some View {
         TabView {
-            Text("Home")
+            HomeView()
                 .tabItem{
                     Image(systemName: "house")
                     Text("Home")
                 }
-            Text("Settings")
+            SettingsView()
                 .tabItem {
                     Image(systemName: "gear")
                     Text("Settings")
