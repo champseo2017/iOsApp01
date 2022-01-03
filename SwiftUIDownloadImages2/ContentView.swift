@@ -9,11 +9,18 @@ import SwURL
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+        SwURL.setImageCache(type: .persistent)
+    }
     var body: some View {
         NavigationView {
             VStack {
                 RemoteImageView(
-                    url: URL(string:"https://res.cloudinary.com/dsbwqhnrl/images/f_png,q_auto:good/v1634830856/travel/Wat-Chedi-Luang-www.onealltravel.com_1/Wat-Chedi-Luang-www.onealltravel.com_1.png?_i=AA")!)
+                    url: URL(string:"https://res.cloudinary.com/dsbwqhnrl/images/f_png,q_auto:good/v1634830856/travel/Wat-Chedi-Luang-www.onealltravel.com_1/Wat-Chedi-Luang-www.onealltravel.com_1.png?_i=AA")!, placeholderImage: Image(systemName: "photo"), transition: .custom(transition: .opacity, animation: .easeIn(duration:0.25)))
+                    .progress({progress in
+                        return Text("Loading \(progress)")
+                    })
+                    
                 Text("Loading Images")
             }
             .navigationTitle("Welcome!")
