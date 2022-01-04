@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1462448E278169D600CA847E /* SwiftUIDownloadImages2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462448D278169D600CA847E /* SwiftUIDownloadImages2App.swift */; };
-		14624490278169D600CA847E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462448F278169D600CA847E /* ContentView.swift */; };
-		14624492278169DB00CA847E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14624491278169DB00CA847E /* Assets.xcassets */; };
-		14624495278169DB00CA847E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14624494278169DB00CA847E /* Preview Assets.xcassets */; };
-		1462449E278169F900CA847E /* SwURL in Frameworks */ = {isa = PBXBuildFile; productRef = 1462449D278169F900CA847E /* SwURL */; };
+		1402F1972782D47B00DB6D8A /* SwiftUIOnboardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1402F1962782D47B00DB6D8A /* SwiftUIOnboardingApp.swift */; };
+		1402F1992782D47B00DB6D8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1402F1982782D47B00DB6D8A /* ContentView.swift */; };
+		1402F19B2782D48100DB6D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1402F19A2782D48100DB6D8A /* Assets.xcassets */; };
+		1402F19E2782D48100DB6D8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1402F19D2782D48100DB6D8A /* Preview Assets.xcassets */; };
+		1402F1A72782DF1400DB6D8A /* ConcentricOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 1402F1A62782DF1400DB6D8A /* ConcentricOnboarding */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1462448A278169D600CA847E /* SwiftUIDownloadImages2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDownloadImages2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1462448D278169D600CA847E /* SwiftUIDownloadImages2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDownloadImages2App.swift; sourceTree = "<group>"; };
-		1462448F278169D600CA847E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		14624491278169DB00CA847E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		14624494278169DB00CA847E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		14624496278169DB00CA847E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1402F1932782D47B00DB6D8A /* SwiftUIOnboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIOnboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1402F1962782D47B00DB6D8A /* SwiftUIOnboardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIOnboardingApp.swift; sourceTree = "<group>"; };
+		1402F1982782D47B00DB6D8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1402F19A2782D48100DB6D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1402F19D2782D48100DB6D8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1402F19F2782D48100DB6D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14624487278169D600CA847E /* Frameworks */ = {
+		1402F1902782D47B00DB6D8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1462449E278169F900CA847E /* SwURL in Frameworks */,
+				1402F1A72782DF1400DB6D8A /* ConcentricOnboarding in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14624481278169D600CA847E = {
+		1402F18A2782D47A00DB6D8A = {
 			isa = PBXGroup;
 			children = (
-				1462448C278169D600CA847E /* SwiftUIDownloadImages2 */,
-				1462448B278169D600CA847E /* Products */,
+				1402F1952782D47B00DB6D8A /* SwiftUIOnboarding */,
+				1402F1942782D47B00DB6D8A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1462448B278169D600CA847E /* Products */ = {
+		1402F1942782D47B00DB6D8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1462448A278169D600CA847E /* SwiftUIDownloadImages2.app */,
+				1402F1932782D47B00DB6D8A /* SwiftUIOnboarding.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1462448C278169D600CA847E /* SwiftUIDownloadImages2 */ = {
+		1402F1952782D47B00DB6D8A /* SwiftUIOnboarding */ = {
 			isa = PBXGroup;
 			children = (
-				1462448D278169D600CA847E /* SwiftUIDownloadImages2App.swift */,
-				1462448F278169D600CA847E /* ContentView.swift */,
-				14624491278169DB00CA847E /* Assets.xcassets */,
-				14624496278169DB00CA847E /* Info.plist */,
-				14624493278169DB00CA847E /* Preview Content */,
+				1402F1962782D47B00DB6D8A /* SwiftUIOnboardingApp.swift */,
+				1402F1982782D47B00DB6D8A /* ContentView.swift */,
+				1402F19A2782D48100DB6D8A /* Assets.xcassets */,
+				1402F19F2782D48100DB6D8A /* Info.plist */,
+				1402F19C2782D48100DB6D8A /* Preview Content */,
 			);
-			path = SwiftUIDownloadImages2;
+			path = SwiftUIOnboarding;
 			sourceTree = "<group>";
 		};
-		14624493278169DB00CA847E /* Preview Content */ = {
+		1402F19C2782D48100DB6D8A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				14624494278169DB00CA847E /* Preview Assets.xcassets */,
+				1402F19D2782D48100DB6D8A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -74,41 +74,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14624489278169D600CA847E /* SwiftUIDownloadImages2 */ = {
+		1402F1922782D47B00DB6D8A /* SwiftUIOnboarding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14624499278169DB00CA847E /* Build configuration list for PBXNativeTarget "SwiftUIDownloadImages2" */;
+			buildConfigurationList = 1402F1A22782D48100DB6D8A /* Build configuration list for PBXNativeTarget "SwiftUIOnboarding" */;
 			buildPhases = (
-				14624486278169D600CA847E /* Sources */,
-				14624487278169D600CA847E /* Frameworks */,
-				14624488278169D600CA847E /* Resources */,
+				1402F18F2782D47B00DB6D8A /* Sources */,
+				1402F1902782D47B00DB6D8A /* Frameworks */,
+				1402F1912782D47B00DB6D8A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUIDownloadImages2;
+			name = SwiftUIOnboarding;
 			packageProductDependencies = (
-				1462449D278169F900CA847E /* SwURL */,
+				1402F1A62782DF1400DB6D8A /* ConcentricOnboarding */,
 			);
-			productName = SwiftUIDownloadImages2;
-			productReference = 1462448A278169D600CA847E /* SwiftUIDownloadImages2.app */;
+			productName = SwiftUIOnboarding;
+			productReference = 1402F1932782D47B00DB6D8A /* SwiftUIOnboarding.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		14624482278169D600CA847E /* Project object */ = {
+		1402F18B2782D47A00DB6D8A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					14624489278169D600CA847E = {
+					1402F1922782D47B00DB6D8A = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 14624485278169D600CA847E /* Build configuration list for PBXProject "SwiftUIDownloadImages2" */;
+			buildConfigurationList = 1402F18E2782D47B00DB6D8A /* Build configuration list for PBXProject "SwiftUIOnboarding" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,45 +116,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 14624481278169D600CA847E;
+			mainGroup = 1402F18A2782D47A00DB6D8A;
 			packageReferences = (
-				1462449C278169F900CA847E /* XCRemoteSwiftPackageReference "SwURL" */,
+				1402F1A52782DF1400DB6D8A /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */,
 			);
-			productRefGroup = 1462448B278169D600CA847E /* Products */;
+			productRefGroup = 1402F1942782D47B00DB6D8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14624489278169D600CA847E /* SwiftUIDownloadImages2 */,
+				1402F1922782D47B00DB6D8A /* SwiftUIOnboarding */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14624488278169D600CA847E /* Resources */ = {
+		1402F1912782D47B00DB6D8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14624495278169DB00CA847E /* Preview Assets.xcassets in Resources */,
-				14624492278169DB00CA847E /* Assets.xcassets in Resources */,
+				1402F19E2782D48100DB6D8A /* Preview Assets.xcassets in Resources */,
+				1402F19B2782D48100DB6D8A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14624486278169D600CA847E /* Sources */ = {
+		1402F18F2782D47B00DB6D8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14624490278169D600CA847E /* ContentView.swift in Sources */,
-				1462448E278169D600CA847E /* SwiftUIDownloadImages2App.swift in Sources */,
+				1402F1992782D47B00DB6D8A /* ContentView.swift in Sources */,
+				1402F1972782D47B00DB6D8A /* SwiftUIOnboardingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		14624497278169DB00CA847E /* Debug */ = {
+		1402F1A02782D48100DB6D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +215,7 @@
 			};
 			name = Debug;
 		};
-		14624498278169DB00CA847E /* Release */ = {
+		1402F1A12782D48100DB6D8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,42 +270,42 @@
 			};
 			name = Release;
 		};
-		1462449A278169DB00CA847E /* Debug */ = {
+		1402F1A32782D48100DB6D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDownloadImages2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIOnboarding/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIDownloadImages2/Info.plist;
+				INFOPLIST_FILE = SwiftUIOnboarding/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIDownloadImages2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIOnboarding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1462449B278169DB00CA847E /* Release */ = {
+		1402F1A42782D48100DB6D8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDownloadImages2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIOnboarding/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIDownloadImages2/Info.plist;
+				INFOPLIST_FILE = SwiftUIOnboarding/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIDownloadImages2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIOnboarding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,20 +315,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14624485278169D600CA847E /* Build configuration list for PBXProject "SwiftUIDownloadImages2" */ = {
+		1402F18E2782D47B00DB6D8A /* Build configuration list for PBXProject "SwiftUIOnboarding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14624497278169DB00CA847E /* Debug */,
-				14624498278169DB00CA847E /* Release */,
+				1402F1A02782D48100DB6D8A /* Debug */,
+				1402F1A12782D48100DB6D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14624499278169DB00CA847E /* Build configuration list for PBXNativeTarget "SwiftUIDownloadImages2" */ = {
+		1402F1A22782D48100DB6D8A /* Build configuration list for PBXNativeTarget "SwiftUIOnboarding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1462449A278169DB00CA847E /* Debug */,
-				1462449B278169DB00CA847E /* Release */,
+				1402F1A32782D48100DB6D8A /* Debug */,
+				1402F1A42782D48100DB6D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -336,23 +336,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1462449C278169F900CA847E /* XCRemoteSwiftPackageReference "SwURL" */ = {
+		1402F1A52782DF1400DB6D8A /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/cmtrounce/SwURL";
+			repositoryURL = "https://github.com/exyte/ConcentricOnboarding";
 			requirement = {
 				kind = exactVersion;
-				version = 0.4.0;
+				version = 0.0.5;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1462449D278169F900CA847E /* SwURL */ = {
+		1402F1A62782DF1400DB6D8A /* ConcentricOnboarding */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1462449C278169F900CA847E /* XCRemoteSwiftPackageReference "SwURL" */;
-			productName = SwURL;
+			package = 1402F1A52782DF1400DB6D8A /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */;
+			productName = ConcentricOnboarding;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 14624482278169D600CA847E /* Project object */;
+	rootObject = 1402F18B2782D47A00DB6D8A /* Project object */;
 }
