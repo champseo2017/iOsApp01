@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		145F12012785E6A0000A03B0 /* SwiftUICustomIconsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145F12002785E6A0000A03B0 /* SwiftUICustomIconsApp.swift */; };
-		145F12032785E6A0000A03B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145F12022785E6A0000A03B0 /* ContentView.swift */; };
-		145F12052785E6A7000A03B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145F12042785E6A7000A03B0 /* Assets.xcassets */; };
-		145F12082785E6A7000A03B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145F12072785E6A7000A03B0 /* Preview Assets.xcassets */; };
-		145F12112785E713000A03B0 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 145F12102785E713000A03B0 /* SwiftUIFontIcon */; };
+		14602A3D27887FDF008EEFAD /* SwiftUIPopupsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14602A3C27887FDF008EEFAD /* SwiftUIPopupsApp.swift */; };
+		14602A3F27887FDF008EEFAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14602A3E27887FDF008EEFAD /* ContentView.swift */; };
+		14602A4127887FE3008EEFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14602A4027887FE3008EEFAD /* Assets.xcassets */; };
+		14602A4427887FE3008EEFAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14602A4327887FE3008EEFAD /* Preview Assets.xcassets */; };
+		14602A4D2788855F008EEFAD /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 14602A4C2788855F008EEFAD /* PopupView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		145F11FD2785E6A0000A03B0 /* SwiftUICustomIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICustomIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		145F12002785E6A0000A03B0 /* SwiftUICustomIconsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomIconsApp.swift; sourceTree = "<group>"; };
-		145F12022785E6A0000A03B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		145F12042785E6A7000A03B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		145F12072785E6A7000A03B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		145F12092785E6A7000A03B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14602A3927887FDF008EEFAD /* SwiftUIPopups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPopups.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14602A3C27887FDF008EEFAD /* SwiftUIPopupsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPopupsApp.swift; sourceTree = "<group>"; };
+		14602A3E27887FDF008EEFAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14602A4027887FE3008EEFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14602A4327887FE3008EEFAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14602A4527887FE3008EEFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		145F11FA2785E6A0000A03B0 /* Frameworks */ = {
+		14602A3627887FDF008EEFAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				145F12112785E713000A03B0 /* SwiftUIFontIcon in Frameworks */,
+				14602A4D2788855F008EEFAD /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		145F11F42785E6A0000A03B0 = {
+		14602A3027887FDF008EEFAD = {
 			isa = PBXGroup;
 			children = (
-				145F11FF2785E6A0000A03B0 /* SwiftUICustomIcons */,
-				145F11FE2785E6A0000A03B0 /* Products */,
+				14602A3B27887FDF008EEFAD /* SwiftUIPopups */,
+				14602A3A27887FDF008EEFAD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		145F11FE2785E6A0000A03B0 /* Products */ = {
+		14602A3A27887FDF008EEFAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				145F11FD2785E6A0000A03B0 /* SwiftUICustomIcons.app */,
+				14602A3927887FDF008EEFAD /* SwiftUIPopups.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		145F11FF2785E6A0000A03B0 /* SwiftUICustomIcons */ = {
+		14602A3B27887FDF008EEFAD /* SwiftUIPopups */ = {
 			isa = PBXGroup;
 			children = (
-				145F12002785E6A0000A03B0 /* SwiftUICustomIconsApp.swift */,
-				145F12022785E6A0000A03B0 /* ContentView.swift */,
-				145F12042785E6A7000A03B0 /* Assets.xcassets */,
-				145F12092785E6A7000A03B0 /* Info.plist */,
-				145F12062785E6A7000A03B0 /* Preview Content */,
+				14602A3C27887FDF008EEFAD /* SwiftUIPopupsApp.swift */,
+				14602A3E27887FDF008EEFAD /* ContentView.swift */,
+				14602A4027887FE3008EEFAD /* Assets.xcassets */,
+				14602A4527887FE3008EEFAD /* Info.plist */,
+				14602A4227887FE3008EEFAD /* Preview Content */,
 			);
-			path = SwiftUICustomIcons;
+			path = SwiftUIPopups;
 			sourceTree = "<group>";
 		};
-		145F12062785E6A7000A03B0 /* Preview Content */ = {
+		14602A4227887FE3008EEFAD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				145F12072785E6A7000A03B0 /* Preview Assets.xcassets */,
+				14602A4327887FE3008EEFAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -74,41 +74,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		145F11FC2785E6A0000A03B0 /* SwiftUICustomIcons */ = {
+		14602A3827887FDF008EEFAD /* SwiftUIPopups */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 145F120C2785E6A7000A03B0 /* Build configuration list for PBXNativeTarget "SwiftUICustomIcons" */;
+			buildConfigurationList = 14602A4827887FE3008EEFAD /* Build configuration list for PBXNativeTarget "SwiftUIPopups" */;
 			buildPhases = (
-				145F11F92785E6A0000A03B0 /* Sources */,
-				145F11FA2785E6A0000A03B0 /* Frameworks */,
-				145F11FB2785E6A0000A03B0 /* Resources */,
+				14602A3527887FDF008EEFAD /* Sources */,
+				14602A3627887FDF008EEFAD /* Frameworks */,
+				14602A3727887FDF008EEFAD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUICustomIcons;
+			name = SwiftUIPopups;
 			packageProductDependencies = (
-				145F12102785E713000A03B0 /* SwiftUIFontIcon */,
+				14602A4C2788855F008EEFAD /* PopupView */,
 			);
-			productName = SwiftUICustomIcons;
-			productReference = 145F11FD2785E6A0000A03B0 /* SwiftUICustomIcons.app */;
+			productName = SwiftUIPopups;
+			productReference = 14602A3927887FDF008EEFAD /* SwiftUIPopups.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		145F11F52785E6A0000A03B0 /* Project object */ = {
+		14602A3127887FDF008EEFAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					145F11FC2785E6A0000A03B0 = {
+					14602A3827887FDF008EEFAD = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 145F11F82785E6A0000A03B0 /* Build configuration list for PBXProject "SwiftUICustomIcons" */;
+			buildConfigurationList = 14602A3427887FDF008EEFAD /* Build configuration list for PBXProject "SwiftUIPopups" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,45 +116,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 145F11F42785E6A0000A03B0;
+			mainGroup = 14602A3027887FDF008EEFAD;
 			packageReferences = (
-				145F120F2785E713000A03B0 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				14602A4B2788855F008EEFAD /* XCRemoteSwiftPackageReference "PopupView" */,
 			);
-			productRefGroup = 145F11FE2785E6A0000A03B0 /* Products */;
+			productRefGroup = 14602A3A27887FDF008EEFAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				145F11FC2785E6A0000A03B0 /* SwiftUICustomIcons */,
+				14602A3827887FDF008EEFAD /* SwiftUIPopups */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		145F11FB2785E6A0000A03B0 /* Resources */ = {
+		14602A3727887FDF008EEFAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				145F12082785E6A7000A03B0 /* Preview Assets.xcassets in Resources */,
-				145F12052785E6A7000A03B0 /* Assets.xcassets in Resources */,
+				14602A4427887FE3008EEFAD /* Preview Assets.xcassets in Resources */,
+				14602A4127887FE3008EEFAD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		145F11F92785E6A0000A03B0 /* Sources */ = {
+		14602A3527887FDF008EEFAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				145F12032785E6A0000A03B0 /* ContentView.swift in Sources */,
-				145F12012785E6A0000A03B0 /* SwiftUICustomIconsApp.swift in Sources */,
+				14602A3F27887FDF008EEFAD /* ContentView.swift in Sources */,
+				14602A3D27887FDF008EEFAD /* SwiftUIPopupsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		145F120A2785E6A7000A03B0 /* Debug */ = {
+		14602A4627887FE3008EEFAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +215,7 @@
 			};
 			name = Debug;
 		};
-		145F120B2785E6A7000A03B0 /* Release */ = {
+		14602A4727887FE3008EEFAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,42 +270,42 @@
 			};
 			name = Release;
 		};
-		145F120D2785E6A7000A03B0 /* Debug */ = {
+		14602A4927887FE3008EEFAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICustomIcons/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPopups/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUICustomIcons/Info.plist;
+				INFOPLIST_FILE = SwiftUIPopups/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUICustomIcons;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIPopups;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		145F120E2785E6A7000A03B0 /* Release */ = {
+		14602A4A27887FE3008EEFAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICustomIcons/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPopups/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUICustomIcons/Info.plist;
+				INFOPLIST_FILE = SwiftUIPopups/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUICustomIcons;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIPopups;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,20 +315,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		145F11F82785E6A0000A03B0 /* Build configuration list for PBXProject "SwiftUICustomIcons" */ = {
+		14602A3427887FDF008EEFAD /* Build configuration list for PBXProject "SwiftUIPopups" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				145F120A2785E6A7000A03B0 /* Debug */,
-				145F120B2785E6A7000A03B0 /* Release */,
+				14602A4627887FE3008EEFAD /* Debug */,
+				14602A4727887FE3008EEFAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		145F120C2785E6A7000A03B0 /* Build configuration list for PBXNativeTarget "SwiftUICustomIcons" */ = {
+		14602A4827887FE3008EEFAD /* Build configuration list for PBXNativeTarget "SwiftUIPopups" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				145F120D2785E6A7000A03B0 /* Debug */,
-				145F120E2785E6A7000A03B0 /* Release */,
+				14602A4927887FE3008EEFAD /* Debug */,
+				14602A4A27887FE3008EEFAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -336,23 +336,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		145F120F2785E713000A03B0 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+		14602A4B2788855F008EEFAD /* XCRemoteSwiftPackageReference "PopupView" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			repositoryURL = "https://github.com/exyte/PopupView";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.0;
+				kind = exactVersion;
+				version = 0.0.10;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		145F12102785E713000A03B0 /* SwiftUIFontIcon */ = {
+		14602A4C2788855F008EEFAD /* PopupView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 145F120F2785E713000A03B0 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
-			productName = SwiftUIFontIcon;
+			package = 14602A4B2788855F008EEFAD /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 145F11F52785E6A0000A03B0 /* Project object */;
+	rootObject = 14602A3127887FDF008EEFAD /* Project object */;
 }
