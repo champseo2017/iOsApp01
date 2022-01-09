@@ -1,14 +1,14 @@
 //
-//  SwiftUIPopupsApp.swift
-//  SwiftUIPopups
+//  SwiftUIMapApp.swift
+//  SwiftUIMap
 //
-//  Created by Champ on 7/1/2565 BE.
+//  Created by Champ on 9/1/2565 BE.
 //
 
 import SwiftUI
 
 @main
-struct SwiftUIPopupsApp: App {
+struct SwiftUIMapApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -3,70 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14602A3D27887FDF008EEFAD /* SwiftUIPopupsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14602A3C27887FDF008EEFAD /* SwiftUIPopupsApp.swift */; };
-		14602A3F27887FDF008EEFAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14602A3E27887FDF008EEFAD /* ContentView.swift */; };
-		14602A4127887FE3008EEFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14602A4027887FE3008EEFAD /* Assets.xcassets */; };
-		14602A4427887FE3008EEFAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14602A4327887FE3008EEFAD /* Preview Assets.xcassets */; };
-		14602A4D2788855F008EEFAD /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 14602A4C2788855F008EEFAD /* PopupView */; };
+		14311717278AA7EB00FFEE8F /* SwiftUIMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14311716278AA7EB00FFEE8F /* SwiftUIMapApp.swift */; };
+		14311719278AA7EB00FFEE8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14311718278AA7EB00FFEE8F /* ContentView.swift */; };
+		1431171B278AA7EE00FFEE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1431171A278AA7EE00FFEE8F /* Assets.xcassets */; };
+		1431171E278AA7EE00FFEE8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1431171D278AA7EE00FFEE8F /* Preview Assets.xcassets */; };
+		14311726278AB04100FFEE8F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14311725278AB04100FFEE8F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14602A3927887FDF008EEFAD /* SwiftUIPopups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPopups.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14602A3C27887FDF008EEFAD /* SwiftUIPopupsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPopupsApp.swift; sourceTree = "<group>"; };
-		14602A3E27887FDF008EEFAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		14602A4027887FE3008EEFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		14602A4327887FE3008EEFAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		14602A4527887FE3008EEFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14311713278AA7EB00FFEE8F /* SwiftUIMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14311716278AA7EB00FFEE8F /* SwiftUIMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapApp.swift; sourceTree = "<group>"; };
+		14311718278AA7EB00FFEE8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1431171A278AA7EE00FFEE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1431171D278AA7EE00FFEE8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1431171F278AA7EE00FFEE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14311725278AB04100FFEE8F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14602A3627887FDF008EEFAD /* Frameworks */ = {
+		14311710278AA7EB00FFEE8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14602A4D2788855F008EEFAD /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14602A3027887FDF008EEFAD = {
+		1431170A278AA7EB00FFEE8F = {
 			isa = PBXGroup;
 			children = (
-				14602A3B27887FDF008EEFAD /* SwiftUIPopups */,
-				14602A3A27887FDF008EEFAD /* Products */,
+				14311715278AA7EB00FFEE8F /* SwiftUIMap */,
+				14311714278AA7EB00FFEE8F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		14602A3A27887FDF008EEFAD /* Products */ = {
+		14311714278AA7EB00FFEE8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14602A3927887FDF008EEFAD /* SwiftUIPopups.app */,
+				14311713278AA7EB00FFEE8F /* SwiftUIMap.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14602A3B27887FDF008EEFAD /* SwiftUIPopups */ = {
+		14311715278AA7EB00FFEE8F /* SwiftUIMap */ = {
 			isa = PBXGroup;
 			children = (
-				14602A3C27887FDF008EEFAD /* SwiftUIPopupsApp.swift */,
-				14602A3E27887FDF008EEFAD /* ContentView.swift */,
-				14602A4027887FE3008EEFAD /* Assets.xcassets */,
-				14602A4527887FE3008EEFAD /* Info.plist */,
-				14602A4227887FE3008EEFAD /* Preview Content */,
+				14311716278AA7EB00FFEE8F /* SwiftUIMapApp.swift */,
+				14311718278AA7EB00FFEE8F /* ContentView.swift */,
+				1431171A278AA7EE00FFEE8F /* Assets.xcassets */,
+				1431171F278AA7EE00FFEE8F /* Info.plist */,
+				1431171C278AA7EE00FFEE8F /* Preview Content */,
+				14311725278AB04100FFEE8F /* MapView.swift */,
 			);
-			path = SwiftUIPopups;
+			path = SwiftUIMap;
 			sourceTree = "<group>";
 		};
-		14602A4227887FE3008EEFAD /* Preview Content */ = {
+		1431171C278AA7EE00FFEE8F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				14602A4327887FE3008EEFAD /* Preview Assets.xcassets */,
+				1431171D278AA7EE00FFEE8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -74,41 +75,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14602A3827887FDF008EEFAD /* SwiftUIPopups */ = {
+		14311712278AA7EB00FFEE8F /* SwiftUIMap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14602A4827887FE3008EEFAD /* Build configuration list for PBXNativeTarget "SwiftUIPopups" */;
+			buildConfigurationList = 14311722278AA7EE00FFEE8F /* Build configuration list for PBXNativeTarget "SwiftUIMap" */;
 			buildPhases = (
-				14602A3527887FDF008EEFAD /* Sources */,
-				14602A3627887FDF008EEFAD /* Frameworks */,
-				14602A3727887FDF008EEFAD /* Resources */,
+				1431170F278AA7EB00FFEE8F /* Sources */,
+				14311710278AA7EB00FFEE8F /* Frameworks */,
+				14311711278AA7EB00FFEE8F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUIPopups;
-			packageProductDependencies = (
-				14602A4C2788855F008EEFAD /* PopupView */,
-			);
-			productName = SwiftUIPopups;
-			productReference = 14602A3927887FDF008EEFAD /* SwiftUIPopups.app */;
+			name = SwiftUIMap;
+			productName = SwiftUIMap;
+			productReference = 14311713278AA7EB00FFEE8F /* SwiftUIMap.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		14602A3127887FDF008EEFAD /* Project object */ = {
+		1431170B278AA7EB00FFEE8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					14602A3827887FDF008EEFAD = {
+					14311712278AA7EB00FFEE8F = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 14602A3427887FDF008EEFAD /* Build configuration list for PBXProject "SwiftUIPopups" */;
+			buildConfigurationList = 1431170E278AA7EB00FFEE8F /* Build configuration list for PBXProject "SwiftUIMap" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,45 +114,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 14602A3027887FDF008EEFAD;
-			packageReferences = (
-				14602A4B2788855F008EEFAD /* XCRemoteSwiftPackageReference "PopupView" */,
-			);
-			productRefGroup = 14602A3A27887FDF008EEFAD /* Products */;
+			mainGroup = 1431170A278AA7EB00FFEE8F;
+			productRefGroup = 14311714278AA7EB00FFEE8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14602A3827887FDF008EEFAD /* SwiftUIPopups */,
+				14311712278AA7EB00FFEE8F /* SwiftUIMap */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14602A3727887FDF008EEFAD /* Resources */ = {
+		14311711278AA7EB00FFEE8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14602A4427887FE3008EEFAD /* Preview Assets.xcassets in Resources */,
-				14602A4127887FE3008EEFAD /* Assets.xcassets in Resources */,
+				1431171E278AA7EE00FFEE8F /* Preview Assets.xcassets in Resources */,
+				1431171B278AA7EE00FFEE8F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14602A3527887FDF008EEFAD /* Sources */ = {
+		1431170F278AA7EB00FFEE8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14602A3F27887FDF008EEFAD /* ContentView.swift in Sources */,
-				14602A3D27887FDF008EEFAD /* SwiftUIPopupsApp.swift in Sources */,
+				14311719278AA7EB00FFEE8F /* ContentView.swift in Sources */,
+				14311726278AB04100FFEE8F /* MapView.swift in Sources */,
+				14311717278AA7EB00FFEE8F /* SwiftUIMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		14602A4627887FE3008EEFAD /* Debug */ = {
+		14311720278AA7EE00FFEE8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		14602A4727887FE3008EEFAD /* Release */ = {
+		14311721278AA7EE00FFEE8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,42 +266,42 @@
 			};
 			name = Release;
 		};
-		14602A4927887FE3008EEFAD /* Debug */ = {
+		14311723278AA7EE00FFEE8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPopups/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMap/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIPopups/Info.plist;
+				INFOPLIST_FILE = SwiftUIMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIPopups;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		14602A4A27887FE3008EEFAD /* Release */ = {
+		14311724278AA7EE00FFEE8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPopups/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMap/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIPopups/Info.plist;
+				INFOPLIST_FILE = SwiftUIMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIPopups;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,44 +311,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14602A3427887FDF008EEFAD /* Build configuration list for PBXProject "SwiftUIPopups" */ = {
+		1431170E278AA7EB00FFEE8F /* Build configuration list for PBXProject "SwiftUIMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14602A4627887FE3008EEFAD /* Debug */,
-				14602A4727887FE3008EEFAD /* Release */,
+				14311720278AA7EE00FFEE8F /* Debug */,
+				14311721278AA7EE00FFEE8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14602A4827887FE3008EEFAD /* Build configuration list for PBXNativeTarget "SwiftUIPopups" */ = {
+		14311722278AA7EE00FFEE8F /* Build configuration list for PBXNativeTarget "SwiftUIMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14602A4927887FE3008EEFAD /* Debug */,
-				14602A4A27887FE3008EEFAD /* Release */,
+				14311723278AA7EE00FFEE8F /* Debug */,
+				14311724278AA7EE00FFEE8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		14602A4B2788855F008EEFAD /* XCRemoteSwiftPackageReference "PopupView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/exyte/PopupView";
-			requirement = {
-				kind = exactVersion;
-				version = 0.0.10;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		14602A4C2788855F008EEFAD /* PopupView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 14602A4B2788855F008EEFAD /* XCRemoteSwiftPackageReference "PopupView" */;
-			productName = PopupView;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 14602A3127887FDF008EEFAD /* Project object */;
+	rootObject = 1431170B278AA7EB00FFEE8F /* Project object */;
 }
