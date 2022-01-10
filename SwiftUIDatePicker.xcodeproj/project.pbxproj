@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14311717278AA7EB00FFEE8F /* SwiftUIMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14311716278AA7EB00FFEE8F /* SwiftUIMapApp.swift */; };
-		14311719278AA7EB00FFEE8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14311718278AA7EB00FFEE8F /* ContentView.swift */; };
-		1431171B278AA7EE00FFEE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1431171A278AA7EE00FFEE8F /* Assets.xcassets */; };
-		1431171E278AA7EE00FFEE8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1431171D278AA7EE00FFEE8F /* Preview Assets.xcassets */; };
-		14311726278AB04100FFEE8F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14311725278AB04100FFEE8F /* MapView.swift */; };
+		146C3C9A278C84E200ED92AF /* SwiftUIDatePickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146C3C99278C84E200ED92AF /* SwiftUIDatePickerApp.swift */; };
+		146C3C9C278C84E200ED92AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146C3C9B278C84E200ED92AF /* ContentView.swift */; };
+		146C3C9E278C84E600ED92AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146C3C9D278C84E600ED92AF /* Assets.xcassets */; };
+		146C3CA1278C84E600ED92AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146C3CA0278C84E600ED92AF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14311713278AA7EB00FFEE8F /* SwiftUIMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14311716278AA7EB00FFEE8F /* SwiftUIMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapApp.swift; sourceTree = "<group>"; };
-		14311718278AA7EB00FFEE8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1431171A278AA7EE00FFEE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1431171D278AA7EE00FFEE8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1431171F278AA7EE00FFEE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14311725278AB04100FFEE8F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		146C3C96278C84E200ED92AF /* SwiftUIDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		146C3C99278C84E200ED92AF /* SwiftUIDatePickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDatePickerApp.swift; sourceTree = "<group>"; };
+		146C3C9B278C84E200ED92AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		146C3C9D278C84E600ED92AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		146C3CA0278C84E600ED92AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		146C3CA2278C84E600ED92AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14311710278AA7EB00FFEE8F /* Frameworks */ = {
+		146C3C93278C84E200ED92AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,39 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1431170A278AA7EB00FFEE8F = {
+		146C3C8D278C84E200ED92AF = {
 			isa = PBXGroup;
 			children = (
-				14311715278AA7EB00FFEE8F /* SwiftUIMap */,
-				14311714278AA7EB00FFEE8F /* Products */,
+				146C3C98278C84E200ED92AF /* SwiftUIDatePicker */,
+				146C3C97278C84E200ED92AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		14311714278AA7EB00FFEE8F /* Products */ = {
+		146C3C97278C84E200ED92AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14311713278AA7EB00FFEE8F /* SwiftUIMap.app */,
+				146C3C96278C84E200ED92AF /* SwiftUIDatePicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14311715278AA7EB00FFEE8F /* SwiftUIMap */ = {
+		146C3C98278C84E200ED92AF /* SwiftUIDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				14311716278AA7EB00FFEE8F /* SwiftUIMapApp.swift */,
-				14311718278AA7EB00FFEE8F /* ContentView.swift */,
-				1431171A278AA7EE00FFEE8F /* Assets.xcassets */,
-				1431171F278AA7EE00FFEE8F /* Info.plist */,
-				1431171C278AA7EE00FFEE8F /* Preview Content */,
-				14311725278AB04100FFEE8F /* MapView.swift */,
+				146C3C99278C84E200ED92AF /* SwiftUIDatePickerApp.swift */,
+				146C3C9B278C84E200ED92AF /* ContentView.swift */,
+				146C3C9D278C84E600ED92AF /* Assets.xcassets */,
+				146C3CA2278C84E600ED92AF /* Info.plist */,
+				146C3C9F278C84E600ED92AF /* Preview Content */,
 			);
-			path = SwiftUIMap;
+			path = SwiftUIDatePicker;
 			sourceTree = "<group>";
 		};
-		1431171C278AA7EE00FFEE8F /* Preview Content */ = {
+		146C3C9F278C84E600ED92AF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1431171D278AA7EE00FFEE8F /* Preview Assets.xcassets */,
+				146C3CA0278C84E600ED92AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -75,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14311712278AA7EB00FFEE8F /* SwiftUIMap */ = {
+		146C3C95278C84E200ED92AF /* SwiftUIDatePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14311722278AA7EE00FFEE8F /* Build configuration list for PBXNativeTarget "SwiftUIMap" */;
+			buildConfigurationList = 146C3CA5278C84E600ED92AF /* Build configuration list for PBXNativeTarget "SwiftUIDatePicker" */;
 			buildPhases = (
-				1431170F278AA7EB00FFEE8F /* Sources */,
-				14311710278AA7EB00FFEE8F /* Frameworks */,
-				14311711278AA7EB00FFEE8F /* Resources */,
+				146C3C92278C84E200ED92AF /* Sources */,
+				146C3C93278C84E200ED92AF /* Frameworks */,
+				146C3C94278C84E200ED92AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUIMap;
-			productName = SwiftUIMap;
-			productReference = 14311713278AA7EB00FFEE8F /* SwiftUIMap.app */;
+			name = SwiftUIDatePicker;
+			productName = SwiftUIDatePicker;
+			productReference = 146C3C96278C84E200ED92AF /* SwiftUIDatePicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1431170B278AA7EB00FFEE8F /* Project object */ = {
+		146C3C8E278C84E200ED92AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					14311712278AA7EB00FFEE8F = {
+					146C3C95278C84E200ED92AF = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 1431170E278AA7EB00FFEE8F /* Build configuration list for PBXProject "SwiftUIMap" */;
+			buildConfigurationList = 146C3C91278C84E200ED92AF /* Build configuration list for PBXProject "SwiftUIDatePicker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,43 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 1431170A278AA7EB00FFEE8F;
-			productRefGroup = 14311714278AA7EB00FFEE8F /* Products */;
+			mainGroup = 146C3C8D278C84E200ED92AF;
+			productRefGroup = 146C3C97278C84E200ED92AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14311712278AA7EB00FFEE8F /* SwiftUIMap */,
+				146C3C95278C84E200ED92AF /* SwiftUIDatePicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14311711278AA7EB00FFEE8F /* Resources */ = {
+		146C3C94278C84E200ED92AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1431171E278AA7EE00FFEE8F /* Preview Assets.xcassets in Resources */,
-				1431171B278AA7EE00FFEE8F /* Assets.xcassets in Resources */,
+				146C3CA1278C84E600ED92AF /* Preview Assets.xcassets in Resources */,
+				146C3C9E278C84E600ED92AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1431170F278AA7EB00FFEE8F /* Sources */ = {
+		146C3C92278C84E200ED92AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14311719278AA7EB00FFEE8F /* ContentView.swift in Sources */,
-				14311726278AB04100FFEE8F /* MapView.swift in Sources */,
-				14311717278AA7EB00FFEE8F /* SwiftUIMapApp.swift in Sources */,
+				146C3C9C278C84E200ED92AF /* ContentView.swift in Sources */,
+				146C3C9A278C84E200ED92AF /* SwiftUIDatePickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		14311720278AA7EE00FFEE8F /* Debug */ = {
+		146C3CA3278C84E600ED92AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		14311721278AA7EE00FFEE8F /* Release */ = {
+		146C3CA4278C84E600ED92AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,42 +262,42 @@
 			};
 			name = Release;
 		};
-		14311723278AA7EE00FFEE8F /* Debug */ = {
+		146C3CA6278C84E600ED92AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMap/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDatePicker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIMap/Info.plist;
+				INFOPLIST_FILE = SwiftUIDatePicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIDatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		14311724278AA7EE00FFEE8F /* Release */ = {
+		146C3CA7278C84E600ED92AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMap/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDatePicker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIMap/Info.plist;
+				INFOPLIST_FILE = SwiftUIDatePicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggdev.SwiftUIDatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,25 +307,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1431170E278AA7EB00FFEE8F /* Build configuration list for PBXProject "SwiftUIMap" */ = {
+		146C3C91278C84E200ED92AF /* Build configuration list for PBXProject "SwiftUIDatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14311720278AA7EE00FFEE8F /* Debug */,
-				14311721278AA7EE00FFEE8F /* Release */,
+				146C3CA3278C84E600ED92AF /* Debug */,
+				146C3CA4278C84E600ED92AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14311722278AA7EE00FFEE8F /* Build configuration list for PBXNativeTarget "SwiftUIMap" */ = {
+		146C3CA5278C84E600ED92AF /* Build configuration list for PBXNativeTarget "SwiftUIDatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14311723278AA7EE00FFEE8F /* Debug */,
-				14311724278AA7EE00FFEE8F /* Release */,
+				146C3CA6278C84E600ED92AF /* Debug */,
+				146C3CA7278C84E600ED92AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1431170B278AA7EB00FFEE8F /* Project object */;
+	rootObject = 146C3C8E278C84E200ED92AF /* Project object */;
 }
