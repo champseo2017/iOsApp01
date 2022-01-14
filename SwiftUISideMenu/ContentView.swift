@@ -7,13 +7,39 @@
 
 import SwiftUI
 
+struct MenuItem: Identifiable {
+    var id = UUID()
+    let text: String
+}
 struct MenuContent: View {
+    let items: [MenuItem] = [
+        MenuItem(text: "Home"),
+        MenuItem(text: "Settings"),
+        MenuItem(text: "Profile"),
+        MenuItem(text: "Activity"),
+        MenuItem(text: "Flights"),
+        MenuItem(text: "Share"),
+    ]
     var body: some View {
         ZStack {
             Color(UIColor(red: 32/255.0, green: 33/255.0, blue: 33/255.0, alpha: 1))
             VStack(alignment: .leading, spacing: 0) {
-                
+                ForEach(items) { item in
+                    HStack {
+                        Text(item.text)
+                            .bold()
+                            .foregroundColor(.white)
+                            .font(.system(size: 22))
+                            .multilineTextAlignment(.leading)
+                        Spacer()
+                    }
+                    .padding()
+                    Divider()
+                        .background(Color.blue)
+                }
+                Spacer()
             }
+            .padding(.top, 25)
         }
     }
 }
@@ -35,6 +61,9 @@ struct SideMenu: View {
             }
             HStack {
                 MenuContent()
+                    .frame(width: width)
+                    .offset(x: menuOpened ? 0 : -width)
+                    .animation(.default)
                 Spacer()
             }
         }
@@ -56,7 +85,7 @@ struct ContentView: View {
                         .background(Color(.systemBlue))
                 })
             }
-            SideMenu(width: 370, menuOpened: menuOpened, toggleMenu: toggleMenu)
+            SideMenu(width: UIScreen.main.bounds.width/1.6, menuOpened: menuOpened, toggleMenu: toggleMenu)
         }
         .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/ .all/*@END_MENU_TOKEN@*/)
     }
