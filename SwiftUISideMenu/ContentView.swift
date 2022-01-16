@@ -10,22 +10,31 @@ import SwiftUI
 struct MenuItem: Identifiable {
     var id = UUID()
     let text: String
+    let imageName: String
 }
 struct MenuContent: View {
+    let handler: () -> Void = {
+        print("Tapped item")
+    }
     let items: [MenuItem] = [
-        MenuItem(text: "Home"),
-        MenuItem(text: "Settings"),
-        MenuItem(text: "Profile"),
-        MenuItem(text: "Activity"),
-        MenuItem(text: "Flights"),
-        MenuItem(text: "Share"),
+        MenuItem(text: "Home", imageName: "house"),
+        MenuItem(text: "Profile", imageName: "person.circle"),
+        MenuItem(text: "Activity", imageName: "bell"),
+        MenuItem(text: "Flights", imageName: "airplane"),
+        MenuItem(text: "Settings", imageName: "gear"),
+        MenuItem(text: "Share", imageName: "square.and.arrow.up"),
     ]
     var body: some View {
         ZStack {
-            Color(UIColor(red: 32/255.0, green: 33/255.0, blue: 33/255.0, alpha: 1))
+            Color(UIColor(red: 43/255.0, green: 40/255.0, blue: 74/255.0, alpha: 1))
             VStack(alignment: .leading, spacing: 0) {
                 ForEach(items) { item in
                     HStack {
+                        Image(systemName: item.imageName)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .foregroundColor(.white)
+                            .frame(width: 32, height: 32, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         Text(item.text)
                             .bold()
                             .foregroundColor(.white)
@@ -33,9 +42,11 @@ struct MenuContent: View {
                             .multilineTextAlignment(.leading)
                         Spacer()
                     }
+                    .onTapGesture {
+                        self.handler()
+                    }
                     .padding()
                     Divider()
-                        .background(Color.blue)
                 }
                 Spacer()
             }
