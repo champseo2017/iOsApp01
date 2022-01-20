@@ -1,14 +1,14 @@
 //
-//  SwiftUISideMenuApp.swift
-//  SwiftUISideMenu
+//  MVVMWeatherApp.swift
+//  MVVMWeather
 //
-//  Created by Champ on 12/1/2565 BE.
+//  Created by Champ on 20/1/2565 BE.
 //
 
 import SwiftUI
 
 @main
-struct SwiftUISideMenuApp: App {
+struct MVVMWeatherApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
